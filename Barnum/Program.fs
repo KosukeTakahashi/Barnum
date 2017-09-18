@@ -37,7 +37,7 @@ let main argv =
     let data = Dec key cipher
     printfn "raw\t%A" raw
     printfn "key\t%A" key
-    printfn "ciphe\t%A" cipher
+    printfn "cipher\t%A" cipher
     printfn "data\t%A" data
 
     Console.ReadKey() |> ignore
